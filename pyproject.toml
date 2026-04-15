@@ -1,0 +1,25 @@
+[project]
+name = "a2a-mcp"
+version = "0.1.0"
+description = "Notebook-based A2A workshop examples."
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "google-adk[a2a]==1.19.0",
+    "a2a-sdk[http-server]==0.3.16",
+    "mcp==1.19.0",
+    "agent-framework==1.0.0b251120",
+    "agent-framework-a2a==1.0.0b251120",
+    "langchain-mcp-adapters==0.1.11",
+    "langgraph==1.0.2",
+    "langchain[openai]==1.0.2",
+    "google-auth==2.42.0",
+    "httpx==0.28.1",
+    "ipython==8.32.0",
+    "nest-asyncio==1.6.0",
+    "python-dotenv==1.0.1",
+    "requests==2.32.4",
+    "uvicorn==0.34.0",
+]
+
+[tool.uv]
+prerelease = "allow"
