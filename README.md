@@ -11,13 +11,7 @@ Small `uv`-based setup notes for the notebook workflows in this repo.
    ```
 
 2. Add a `.env` file with at least one of these keys:
-
-   ```env
-   GOOGLE_API_KEY=...
-   ```
-
-   or
-
+  
    ```env
    GEMINI_API_KEY=...
    ```
